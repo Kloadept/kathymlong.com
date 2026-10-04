@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Kathy M. Long</title>
+<meta name="description" content="Book Kathy M. Long to speak, request the NixIt investor deck, pitch a podcast, or reach her for press. Replies within a week.">
+<link rel="canonical" href="https://kathymlong.com/contact.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact | Kathy M. Long">
+<meta property="og:description" content="Say the thing. Replies within a week. No hover.">
+<meta property="og:url" content="https://kathymlong.com/contact.html">
+<meta property="og:image" content="https://kathymlong.com/assets/og.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html">Kathy M. Long</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Menu"><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="story.html">Story</a>
+      <a href="speaking.html">Speaking</a>
+      <a href="press.html">Press</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a class="btn btn-cyan btn-sm ext" href="https://nixit.ai" rel="noopener">NixIt</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="section">
+    <div class="wrap">
+      <h1>Say the thing.</h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap contact-grid">
+
+      <!-- Web3Forms key: submissions go to kathy@nixit.ai -->
+      <form id="contact-form" class="form-stack" action="https://api.web3forms.com/submit" method="POST" novalidate>
+        <input type="hidden" name="access_key" value="299307eb-82bd-4934-8739-4f7ab630a431">
+        <input type="hidden" name="subject" id="form-subject" value="kathymlong.com: new message">
+        <input type="hidden" name="from_name" value="kathymlong.com">
+        <input type="hidden" name="redirect" value="https://kathymlong.com/thanks.html">
+        <input type="checkbox" name="botcheck" class="sr-only" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <fieldset style="border:0;padding:0;margin:0">
+          <legend style="padding:0"><span class="kicker">I'm reaching out about</span></legend>
+          <div class="chips" style="margin-top:10px">
+            <label class="chip"><input type="radio" name="about" value="Speaking" checked><span>Speaking</span></label>
+            <label class="chip"><input type="radio" name="about" value="Podcast"><span>Podcast</span></label>
+            <label class="chip"><input type="radio" name="about" value="Investing"><span>Investing</span></label>
+            <label class="chip"><input type="radio" name="about" value="Press"><span>Press</span></label>
+            <label class="chip"><input type="radio" name="about" value="Other"><span>Other</span></label>
+          </div>
+        </fieldset>
+
+        <div class="field-row">
+          <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" type="text" required autocomplete="name"></div>
+          <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" required autocomplete="email"></div>
+        </div>
+
+        <div class="intent-fields field-row" data-for="Speaking">
+          <div class="field"><label for="f-event">Event or organization</label><input id="f-event" name="event_or_org" type="text"></div>
+          <div class="field"><label for="f-date">Date</label><input id="f-date" name="event_date" type="text" placeholder="Or a window, e.g. spring 2027"></div>
+        </div>
+        <div class="intent-fields field-row" data-for="Podcast" hidden>
+          <div class="field"><label for="f-show">Show</label><input id="f-show" name="show" type="text"></div>
+          <div class="field"><label for="f-window">Recording window</label><input id="f-window" name="recording_window" type="text"></div>
+        </div>
+        <div class="intent-fields field-row" data-for="Investing" hidden>
+          <div class="field"><label for="f-fund">Fund or firm</label><input id="f-fund" name="fund_or_firm" type="text"></div>
+          <div class="field"><label for="f-stage">Stage you invest at</label><input id="f-stage" name="stage" type="text" placeholder="e.g. pre-seed, seed"></div>
+        </div>
+        <div class="intent-fields field-row" data-for="Press" hidden>
+          <div class="field"><label for="f-outlet">Outlet</label><input id="f-outlet" name="outlet" type="text"></div>
+          <div class="field"><label for="f-deadline">Deadline</label><input id="f-deadline" name="deadline" type="text"></div>
+        </div>
+
+        <div class="field"><label for="f-message">Message</label><textarea id="f-message" name="message" required></textarea></div>
+
+        <div class="form-foot">
+          <span class="small">Replies within a week. No hover.</span>
+          <button class="btn btn-primary" type="submit">Send</button>
+        </div>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+
+      <aside>
+        <div class="aside-block">
+          <h3>Notes from the middle of it</h3>
+          <p>Monthly. Founder life, disability tech, four kids. Unsubscribe anytime.</p>
+          <!-- Signups go to the inbox until a Substack publication exists (see LINKS in site.js) -->
+          <form class="subscribe" action="https://api.web3forms.com/submit" method="post" data-newsletter style="margin-top:12px">
+            <input type="hidden" name="access_key" value="299307eb-82bd-4934-8739-4f7ab630a431">
+            <input type="hidden" name="subject" value="kathymlong.com: newsletter signup">
+            <input type="hidden" name="from_name" value="kathymlong.com">
+            <input type="hidden" name="redirect" value="https://kathymlong.com/thanks.html">
+            <input type="checkbox" name="botcheck" class="sr-only" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <label class="sr-only" for="nl-email">Email address</label>
+            <input id="nl-email" type="email" name="email" placeholder="you@email.com" required autocomplete="email">
+            <button class="btn btn-cyan" type="submit">Subscribe</button>
+            <p class="form-status" role="status" aria-live="polite" style="flex-basis:100%;margin:0"></p>
+          </form>
+        </div>
+        <div class="aside-block">
+          <h3>Elsewhere</h3>
+          <div class="links" style="margin-top:12px">
+            <a href="#" data-linkedin rel="noopener">LinkedIn</a>
+            <a href="#" data-substack-home rel="noopener">Substack</a>
+            <a href="#" data-youtube rel="noopener">YouTube</a>
+            <a href="https://nixit.ai" rel="noopener" class="ext">NixIt</a>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <span>&copy; <span data-year>2026</span> Kathy M. Long</span>
+    <span>Westminster, Colorado</span>
+  </div>
+  <div class="spectrum" aria-hidden="true"></div>
+</footer>
+
+<script src="site.js" defer></script>
+</body>
+</html>
