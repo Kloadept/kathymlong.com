@@ -55,7 +55,7 @@ No build step, no framework, no package manager. Plain HTML, CSS, and a small am
 Direction: "Editorial portrait." Photo-led, one bold claim, three doors. Spend boldness in one place (the headline) and keep everything else quiet.
 
 Type
-- Display: Big Shoulders Display, weights 600, 700, 800. Headlines, nav, buttons, labels, chips. Chosen because it is a Chicago typeface and Kathy is from the South Side.
+- Display: Big Shoulders Display, weights 600, 700, 800. Headlines, nav, buttons, labels, chips. A Chicago typeface; Chicago is where her career and her marriage started. Keep it even if the story copy changes.
 - Reading: Source Serif 4, 18px base, line-height 1.55. Body copy, bios, form inputs.
 - Sentence case everywhere. No all-caps labels, no letterspaced eyebrows.
 
@@ -91,7 +91,9 @@ This is Kathy's voice, first person on the Story and home pages, third person in
 
 - Name on the site: Kathy M. Long. Title: Founder and CEO, NixIt AI.
 - Location: Broomfield, Colorado, outside Boulder. Not Westminster (an early draft had this wrong).
-- Origin: South Side of Chicago.
+- Origin: born in Akron, Ohio. Adopted at two weeks. Grew up with an older sister in a very Italian family. First in her family to go to college. Graduated from The University of Toledo. Played soccer in high school and in college. NOT Chicago, and not the South Side (an early draft got this wrong from a wireframe placeholder).
+- Chicago: moved there after college and met her husband there. Two weeks after the wedding they moved to Colorado, his dream, and both fell in love with the Boulder area.
+- Husband: say "my husband" in first person copy. Do not name him on the site unless Kathy says to.
 - Family: "four kids" or "mom of four." Never name the kids, never state a diagnosis or neurodivergence for any of them, never reference their schools. "A house full of brains that run a different OS" is as specific as the public site gets.
 - Early career: "supported employers and their attorneys on leave and benefits programs." Never say she drafted contracts or policies. Never name individual attorneys anywhere.
 - Career: roughly thirty years in SaaS, revenue operations and customer success. Created the Green-to-Growth Framework. General manager at Farmshare. Founded AdeptExec.
