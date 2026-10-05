@@ -191,6 +191,11 @@ label { display: block; font-family: var(--display); font-weight: 600; font-size
 .photo-stack { display: flex; flex-direction: column; gap: 16px; position: sticky; top: 24px; }
 .photo { aspect-ratio: 4 / 3; border: 2px solid var(--ink); background: var(--paper-deep); display: grid; place-items: center; color: var(--ink-mute); font-family: var(--display); font-weight: 600; font-size: 17px; }
 .photo.tall { aspect-ratio: 3 / 4; }
+.story-grid-solo { grid-template-columns: minmax(0, 1fr); }
+.story-grid-solo .prose { max-width: 72ch; }
+.wide-photo { margin: clamp(8px, 2vw, 16px) 0 clamp(20px, 3vw, 32px); grid-column: 1 / -1; }
+.wide-photo img { width: 100%; height: auto; border: 2px solid var(--ink); }
+.wide-photo figcaption { margin-top: 10px; font-family: var(--display); font-weight: 600; font-size: 18px; color: var(--ink-soft); }
 .pull { border-left: 6px solid var(--orange); padding: 6px 0 6px 22px; margin: clamp(28px, 4vw, 48px) 0; max-width: 40ch; }
 .pull p { font-family: var(--display); font-weight: 700; font-size: clamp(28px, 3.2vw, 40px); line-height: 1.05; margin: 0; text-wrap: balance; }
 @media (max-width: 760px) { .story-grid { grid-template-columns: 1fr; } .photo-stack { position: static; flex-direction: row; } .photo-stack .photo { flex: 1; } }
