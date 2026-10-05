@@ -95,8 +95,9 @@ This is Kathy's voice, first person on the Story and home pages, third person in
 - Chicago: moved there after college and met her husband there. Two weeks after the wedding they moved to Colorado, his dream, and both fell in love with the Boulder area.
 - Husband: say "my husband" in first person copy. Do not name him on the site unless Kathy says to.
 - Family: "four kids" or "mom of four." Never name the kids, never state a diagnosis or neurodivergence for any of them, never reference their schools. "A house full of brains that run a different OS" is as specific as the public site gets.
-- Early career: "supported employers and their attorneys on leave and benefits programs." Never say she drafted contracts or policies. Never name individual attorneys anywhere.
-- Career: roughly thirty years in SaaS, revenue operations and customer success. Created the Green-to-Growth Framework. General manager at Farmshare. Founded AdeptExec.
+- Career, in order: telecom in Chicago after college (selling secure networks and data center rack space to the financial sector); telecom in Colorado after the move; stayed home when her first child was born early; founded and ran a cloth diaper business (sales and service); three more kids; back to telecom and up into leadership; absence management (supporting employers and their attorneys on leave and benefits programs); startups (product troubleshooting, support escalations, revenue operations, then head of operations); NixIt. Created the Green-to-Growth Framework. Also founded AdeptExec.
+- Employers are NOT named on the site. She moved companies deliberately to keep growing and doesn't want a list. For reference only: Hotel Engine, TeamSnap, Farmshare (head of operations). "Thirty years making companies run on time, in telecom and then in startups" is the approved shorthand. Never call her a first-time founder.
+- Early-career phrasing: "supported employers and their attorneys on leave and benefits programs." Never say she drafted contracts or policies. Never name individual attorneys anywhere.
 - Education: master's in organizational leadership, bachelor's in communication and public relations.
 - Boards: advisory board, Women in AI Colorado.
 - NixIt one-liner: SMS-first executive-function support for neurodivergent people, connecting the individual, their family circle, and their coach. Slogan allowed on the site: "We don't make you normal. We make you unbreakable."
@@ -111,6 +112,7 @@ This is Kathy's voice, first person on the Story and home pages, third person in
 - Any mention of NixIt customers, partners, or investors by name.
 - The line "I'm five feet tall. I have never once been short." (she is deciding whether it stays).
 - The 2GI Accelerator pitch win on the home page (confirm wording).
+- The Story sentence about her first child being born early and her staying home. It is the one detail about a kid beyond "four kids" and is on the site only because Kathy approved it. No name, no diagnosis, ever.
 
 ## Hidden sections and how to turn them on
 
