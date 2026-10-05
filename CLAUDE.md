@@ -99,7 +99,7 @@ This is Kathy's voice, first person on the Story and home pages, third person in
 - Employers are NOT named on the site, and not in this file either (the repo is public). "Thirty years making companies run on time, in telecom and then in startups" is the approved shorthand. Never call her a first-time founder.
 - Early-career phrasing: "supported employers and their attorneys on leave and benefits programs." Never say she drafted contracts or policies. Never name individual attorneys anywhere.
 - Education: master's in organizational leadership, bachelor's in communication and public relations.
-- Boards: advisory board, Women in AI Colorado.
+- Writing and affiliations: writes for Colorado AI News. Formerly on the advisory board of Women in AI Colorado (no longer an advisor as of Oct 2026; past tense only).
 - NixIt one-liner: SMS-first executive-function support for neurodivergent people, connecting the individual, their family circle, and their coach. Slogan allowed on the site: "We don't make you normal. We make you unbreakable."
 - Addresses: never put a home address on the site. If a business address is ever needed, it is NixIt's, 300 Nickel St.
 - Email shown publicly: none. Contact goes through the form. If press@kathymlong.com is ever set up (GoDaddy forwarding), it can replace the Press CTA.
