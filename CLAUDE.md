@@ -1,6 +1,6 @@
 # kathymlong.com
 
-Kathy M. Long's personal website. This file is the operating manual for anyone (Claude included) making changes. It lives in the repo as `CLAUDE.md` so Claude Code reads it automatically, and a copy is the project instructions in the "kathymlong.com" project on claude.ai.
+Kathy M. Long's personal website. This file is the operating manual for anyone (Claude included) making changes. It lives in the repo as `CLAUDE.md` so Claude Code reads it automatically. The repo is public, so this file holds only what is fine for the world to read; the fuller version with private context is the project instructions in the "kathymlong.com" project on claude.ai.
 
 ## What this site is
 
@@ -96,7 +96,7 @@ This is Kathy's voice, first person on the Story and home pages, third person in
 - Husband: say "my husband" in first person copy. Do not name him on the site unless Kathy says to.
 - Family: "four kids" or "mom of four." Jack, her oldest, is the one exception: Kathy approved (Oct 5, 2026) naming him and saying he is autistic, because his story is the public NixIt origin story and she tells it herself. Identity-first ("he's autistic"), no other medical detail, no age, no school. The other three kids are never named and never given a diagnosis or neurodivergence on the site. "A house full of brains that run a different OS" is as specific as it gets for them.
 - Career, in order: telecom in Chicago after college (selling secure networks and data center rack space to the financial sector); telecom in Colorado after the move; stayed home when Jack was born early; founded and ran a cloth diaper business (sales and service, because Jack's skin hated disposables); three more kids; went back to school for nursing and spent a year at a children's hospital (her best job, by her own account; she left when her husband lost his job and tech paid); back to telecom and up into leadership; absence management (supporting employers and their attorneys on leave and benefits programs); startups (product troubleshooting, support escalations, revenue operations, then head of operations); NixIt. Created the Green-to-Growth Framework. Also founded AdeptExec.
-- Employers are NOT named on the site. She moved companies deliberately to keep growing and doesn't want a list. For reference only: Hotel Engine, TeamSnap, Farmshare (head of operations). "Thirty years making companies run on time, in telecom and then in startups" is the approved shorthand. Never call her a first-time founder.
+- Employers are NOT named on the site, and not in this file either (the repo is public). "Thirty years making companies run on time, in telecom and then in startups" is the approved shorthand. Never call her a first-time founder.
 - Early-career phrasing: "supported employers and their attorneys on leave and benefits programs." Never say she drafted contracts or policies. Never name individual attorneys anywhere.
 - Education: master's in organizational leadership, bachelor's in communication and public relations.
 - Boards: advisory board, Women in AI Colorado.
