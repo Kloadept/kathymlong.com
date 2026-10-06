@@ -12,7 +12,7 @@ A static personal site for Kathy M. Long, founder and CEO of NixIt AI. Three aud
 - Hosting: GitHub Pages, from the `main` branch, root folder. A push to `main` republishes in about a minute. There is no staging; preview locally or by screenshot before pushing.
 - Domain: bought at GoDaddy, DNS managed at GoDaddy. Four A records on `@` point to GitHub Pages; `www` is a CNAME to `kloadept.github.io`. The `CNAME` file in the repo tells GitHub the domain. Do not delete it.
 - Forms: Web3Forms. Submissions email kathy@nixit.ai. The access key is in the HTML and is meant to be public.
-- Newsletter: signups post straight to the Substack publication at https://kathylongnixit.substack.com (set in `LINKS.substackPublication` in `site.js`). Emptying that value sends signups back to the inbox through Web3Forms.
+- Newsletter: when `LINKS.substackPublication` in `site.js` is set (it is: https://kathylongnixit.substack.com), `site.js` replaces each Subscribe form with Substack's own signup embed (`/embed`), which subscribes in one step. Posting the form directly to Substack did not add subscribers, so do not go back to that. Emptying the value restores the Web3Forms inbox form.
 
 ## How Kathy works with Claude on this site
 

@@ -26,12 +26,17 @@
   wire('[data-substack-home]', LINKS.substack);
 
   /* ---- Newsletter signups ----
-     With a Substack publication set, the box posts straight to Substack.
+     With a Substack publication set, each box is replaced by Substack's own
+     signup embed, which subscribes the reader in one step.
      Without one, signups go to the inbox through Web3Forms and confirm inline. */
   document.querySelectorAll('form[data-newsletter]').forEach(function (f) {
     if (LINKS.substackPublication) {
-      f.action = LINKS.substackPublication.replace(/\/+$/, '') + '/api/v1/free?nojs=true';
-      f.querySelectorAll('input[type="hidden"], input[name="botcheck"]').forEach(function (i) { i.remove(); });
+      var frame = document.createElement('iframe');
+      frame.src = LINKS.substackPublication.replace(/\/+$/, '') + '/embed';
+      frame.title = 'Subscribe to Kathy Long on Substack';
+      frame.loading = 'lazy';
+      frame.className = 'substack-embed';
+      f.replaceWith(frame);
       return;
     }
     f.addEventListener('submit', function (e) {

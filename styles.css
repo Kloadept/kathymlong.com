@@ -152,6 +152,7 @@ main { display: block; }
 .newsletter p { margin: 6px 0 0; font-size: 17px; color: var(--ink-soft); }
 .subscribe { display: flex; gap: 10px; flex-wrap: wrap; }
 .subscribe input { flex: 1 1 200px; }
+.substack-embed { display: block; width: 100%; height: 320px; border: 2px solid var(--rule); background: #fff; }
 @media (max-width: 760px) { .newsletter { grid-template-columns: 1fr; } }
 
 /* ---------- Forms ---------- */
