@@ -6,8 +6,8 @@
   var LINKS = {
     linkedin: 'https://www.linkedin.com/in/kathymlong',
     youtube: 'https://www.youtube.com/@NixItAI',
-    substack: 'https://substack.com/@kathylongnixit',   // profile link shown in the footer
-    substackPublication: ''                             // once the newsletter exists, e.g. 'https://kathymlong.substack.com'; signups then post there instead of the inbox
+    substack: 'https://kathylongnixit.substack.com',              // publication link shown in the footer
+    substackPublication: 'https://kathylongnixit.substack.com'    // newsletter signups post here; empty sends them to the inbox instead
   };
 
   /* ---- Footer year ---- */
