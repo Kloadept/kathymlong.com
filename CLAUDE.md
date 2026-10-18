@@ -30,11 +30,13 @@ A static personal site for Kathy M. Long, founder and CEO of NixIt AI. Three aud
 
 | File | What it is |
 |---|---|
-| `index.html` | Home: portrait, one claim, three doors (investors, organizers, press), newsletter strip |
+| `index.html` | Home: portrait, one claim, four doors (investors, organizers, press, founders), newsletter strip |
+| `record.html` | Track record: roles with employer names and LinkedIn-approved numbers, recognition, voice, education |
+| `work.html` | Work with me: paid advisory packages and rates; Book a session goes to the contact form (Advisory) |
 | `story.html` | Story prose, Why NixIt panel, short and long bios with copy buttons |
 | `speaking.html` | Topics, formats, booking bar. Featured video and past talks sections exist but are hidden |
 | `press.html` | Press kit: headshots, bios, fast facts, NixIt boilerplate. Coverage and zip downloads hidden |
-| `contact.html` | Contact form routed by intent (Speaking, Podcast, Investing, Press, Other), newsletter, links |
+| `contact.html` | Contact form routed by intent (Speaking, Podcast, Investing, Press, Advisory, Other), newsletter, links |
 | `thanks.html` | Landing page after a no-JavaScript form submit |
 | `404.html` | Not found |
 | `styles.css` | All styling. Design tokens are at the top in `:root`. Self-hosted `@font-face` rules above that |
@@ -96,11 +98,11 @@ This is Kathy's voice, first person on the Story and home pages, third person in
 - Husband: say "my husband" in first person copy. Do not name him on the site unless Kathy says to.
 - Family: "four kids" or "mom of four." Jack, her oldest, is the one exception: Kathy approved (Oct 5, 2026) naming him and saying he is autistic, because his story is the public NixIt origin story and she tells it herself. Identity-first ("he's autistic"), no other medical detail, no age, no school. The other three kids are never named and never given a diagnosis or neurodivergence on the site. "A house full of brains that run a different OS" is as specific as it gets for them.
 - Career, in order: telecom in Chicago after college (selling secure networks and data center rack space to the financial sector); telecom in Colorado after the move; stayed home when Jack was born early; founded and ran a cloth diaper business (sales and service, because Jack's skin hated disposables); three more kids; went back to school for nursing and spent a year at a children's hospital (her best job, by her own account; she left when her husband lost his job and tech paid); back to telecom and up into leadership; absence management (supporting employers and their attorneys on leave and benefits programs); startups (product troubleshooting, support escalations, revenue operations, then head of operations); NixIt. Created the Green-to-Growth Framework. Also founded AdeptExec.
-- Employers are NOT named on the site, and not in this file either (the repo is public). "Thirty years making companies run on time, in telecom and then in startups" is the approved shorthand. Never call her a first-time founder.
+- Employers may be named (approved Oct 18, 2026): LinkedIn is the ceiling. Anything on her LinkedIn profile, including titles and accomplishment numbers, is cleared for the site. Anything not on LinkedIn (a former employer's funding, internal metrics) stays off. Never call her a first-time founder.
 - Early-career phrasing: "supported employers and their attorneys on leave and benefits programs." Never say she drafted contracts or policies. Never name individual attorneys anywhere.
 - Education: master's in organizational leadership, bachelor's in communication and public relations.
-- Writing and affiliations: writes for Colorado AI News. Formerly on the advisory board of Women in AI Colorado (no longer an advisor as of Oct 2026; past tense only).
-- NixIt one-liner: SMS-first executive-function support for neurodivergent people, connecting the individual, their family circle, and their coach. Slogan allowed on the site: "We don't make you normal. We make you unbreakable."
+- Writing and affiliations: writes for Colorado AI News. Ongoing contributor to Colorado AI News ("Human Input" column). Women in AI Colorado: former advisory board member, still an occasional contributor; treat it as experience history, never as a current board seat.
+- NixIt one-liner: the shared, living record for neurodivergent people and everyone who supports them (family, coaches, schools, providers), so no one has to start over. Home hook: "We're ending the intake form." Promise: "No neurodivergent person will ever have to start over again." Slogan allowed on the site: "We don't make you normal. We make you unbreakable."
 - Addresses: never put a home address on the site. If a business address is ever needed, it is NixIt's, 300 Nickel St.
 - Email shown publicly: none. Contact goes through the form. If press@kathymlong.com is ever set up (GoDaddy forwarding), it can replace the Press CTA.
 
@@ -112,7 +114,7 @@ This is Kathy's voice, first person on the Story and home pages, third person in
 - Any mention of NixIt customers, partners, or investors by name.
 - The line "I'm five feet tall. I have never once been short." (she is deciding whether it stays).
 - The 2GI Accelerator pitch win on the home page (confirm wording).
-- Anything about Jack beyond what the Story page and long bio already say (born early, autistic, the reason for NixIt, the diaper business). Approved as written; nothing more without asking.
+- Anything about Jack beyond what the Story page and long bio already say (born early, autistic, the reason for NixIt, the diaper business, and the 2 AM section added Oct 18, 2026: the brain-in-his-pocket idea, texting, the doctor's office allergy question). Approved as written; still no age. Nothing more without asking.
 - Anything from the children's hospital year beyond the Story paragraph as written. No patient-identifying detail, ever, and the hospital is not named on the site.
 
 ## Hidden sections and how to turn them on

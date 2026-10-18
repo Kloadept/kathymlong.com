@@ -274,3 +274,28 @@ label { display: block; font-family: var(--display); font-weight: 600; font-size
 .todo { display: none; } /* content placeholders stay hidden until real material exists */
 .stack { display: flex; flex-direction: column; gap: 14px; }
 .ext::after { content: " \2197"; font-family: var(--display); }
+
+/* ---------- Four doors (home) ---------- */
+.doors-4 { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 1040px) { .doors-4 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 760px) { .doors-4 { grid-template-columns: 1fr; } }
+.plain { list-style: none; margin: 0; padding: 0; font-size: 17px; color: var(--ink-soft); }
+.plain li { padding: 8px 0; border-bottom: 1px solid var(--rule-light); }
+.plain li:last-child { border-bottom: 0; }
+
+/* ---------- Track record ---------- */
+.roles { border-top: 2px solid var(--rule); }
+.role { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: clamp(20px, 4vw, 56px); padding: 26px 0; border-bottom: 1px solid var(--rule-light); }
+.role-meta .year { font-family: var(--display); font-weight: 600; font-size: 18px; color: var(--ink-mute); margin: 0; }
+.role-meta .org { font-family: var(--display); font-weight: 800; font-size: 28px; line-height: 1; margin: 4px 0 0; }
+.role h3 { margin-bottom: 12px; }
+.role ul { margin: 0; padding-left: 20px; max-width: var(--measure); }
+.role li { margin: 0 0 6px; font-size: 17px; }
+@media (max-width: 760px) { .role { grid-template-columns: 1fr; gap: 8px; } }
+
+/* ---------- Work with me ---------- */
+.offers { display: grid; grid-template-columns: repeat(2, 1fr); gap: clamp(20px, 3vw, 40px); }
+.offer { border-top: 2px solid var(--rule); padding-top: 18px; }
+.offer .price { font-family: var(--display); font-weight: 800; font-size: 40px; line-height: 1; margin: 10px 0 12px; color: var(--teal); }
+.offer p:not(.price) { font-size: 17px; color: var(--ink-soft); }
+@media (max-width: 760px) { .offers { grid-template-columns: 1fr; } }
